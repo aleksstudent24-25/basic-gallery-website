@@ -1,0 +1,29 @@
+main {
+  background-image: url(../images/Fancy-White-Wall.avif);
+  background-size: cover;
+  min-height: calc(100vh - 69.33px);
+  align-content: center;
+  place-items: center;
+}
+
+main div#pictures {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+main div#pictures img {
+  gap: 20px;
+  border: 5px #1111 solid;
+  max-width: 100%;
+  height: 80vh;
+}
+
+main div#pictures img:hover {
+  border: 5px #4a4444 solid;
+  transform: scale(1.05);
+}
+
+main div#pictures img#elf {
+  grid-column: span 3;
+}
