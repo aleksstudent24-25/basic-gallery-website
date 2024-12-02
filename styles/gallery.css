@@ -1,6 +1,9 @@
-main {
+body {
   background-image: url(../images/Fancy-White-Wall.avif);
   background-size: cover;
+}
+
+main {
   min-height: calc(100vh - 69.33px);
   align-content: center;
   place-items: center;
